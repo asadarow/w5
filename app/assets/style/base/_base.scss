@@ -1,0 +1,18 @@
+body{
+font-family: 'Lato','Roboto', sans-serif;
+// line-height: 1.5; 
+}
+h1{
+    margin-right: 50px;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+a,.nav-link{
+    color: $dark;
+    &:hover{
+        color:$success;
+    }
+}
+section{
+    width: 584px;
+}

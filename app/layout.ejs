@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <div class="d-flex">
+      <nav class="nav vh-100 justify-content-between flex-column bg-light">
+        <ul class="nav flex-column fw-bold gap-5">
+          <li class="nav-item">
+            <a class="nav-link pt-5" aria-current="page" href="#"><img src="./assets/images/logo-ANSWER.svg" alt="logo"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="material-icons align-bottom me-3">
+              assessment
+              </span>Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="material-icons align-bottom me-3">
+              question_answer
+              </span>Question</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="material-icons align-bottom me-3">
+              assignment
+              </span>Assignment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="material-icons align-bottom me-3">
+              video_library
+              </span>Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="material-icons align-bottom me-3">
+              people
+              </span>Admin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="material-icons align-bottom me-3">
+              settings
+              </span>Settings</a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center ms-5 mb-5">
+          <div class="flex-shrink-0">
+            <img class="circle" src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=2000&q=80" alt="userimg">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <p class="mb-1 fw-bold">Andy Chen</p>
+            <p class="mb-0 text-secondary fs14">andy0401@mail.com</p>
+          </div>
+        </div>
+      </nav>
+      <%- contents %>
+    </div>
+    
+
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
